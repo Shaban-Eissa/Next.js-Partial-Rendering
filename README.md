@@ -20,9 +20,7 @@ Demo built with Next.js using partial rendering experimental feature with Suspen
 
 ## Demo
 
-
-<video src="https://github.com/Shaban-Eissa/Next.js-Partial-Rendering/assets/49924090/d1a48954-fefe-42fa-af24-2959e137c3bc" width="900" height="380" />
-<br />
+https://github.com/Shaban-Eissa/Next.js-Partial-Rendering/assets/49924090/d1a48954-fefe-42fa-af24-2959e137c3bc
 
 
 ## Installation
@@ -67,6 +65,4 @@ Contributions are welcome! Please follow these guidelines:
 3. Commit your changes: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature-name`.
 5. Open a pull request.
-
-
-
+   
