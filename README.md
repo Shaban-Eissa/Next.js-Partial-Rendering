@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Partial Rendering
 
-## Getting Started
+<img src="https://github.com/Shaban-Eissa/Next.js-Partial-Rendering/assets/49924090/c72d6c51-deb4-44f9-9b9d-9d96b7e694fb" width="900" height="500" />
 
-First, run the development server:
+Demo built with Next.js using partial rendering experimental feature with Suspense API.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* [Features](#features)
+* [Demo](#demo)
+* [Installation](#installation)
+* [Technologies Used](#technologies-used)
+* [Contributing](#contributing)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+* **Partial Rendering:** Allow to render rest of the page in same time an heavy operations is happening like fetching data from server and display fallback UI until data is fetched.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<video src="https://github.com/Shaban-Eissa/Next.js-Partial-Rendering/assets/49924090/d1a48954-fefe-42fa-af24-2959e137c3bc" width="900" height="380" />
+<br />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation
+
+1. **Clone the repository:**
+    
+    ```bash
+    git clone https://github.com/Shaban-Eissa/Next.js-Partial-Rendering
+    ```
+    
+2. **Install dependencies:**
+    
+    ```bash
+    cd Next.js-Partial-Rendering
+    npm install
+    ```
+
+3. **Run the application:**
+    
+    ```bash
+    npm run dev
+    ```
+    
+    The application will be accessible at `http://localhost:3000`.
+
+
+## Technologies
+
+This project utilizes a robust stack of modern technologies for efficient development and optimal user experience:
+
+- Next.js
+- Typescript
+- Partial Rendering
+- Tailwind CSS
+  
+## Contributing
+
+Contributions are welcome! Please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature/bugfix: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Open a pull request.
+
+
+
